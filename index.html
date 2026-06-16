@@ -189,8 +189,8 @@ function pullLever(){
       document.getElementById('display-content').innerHTML=lbl+'<div class="display-text">'+c.text+'</div>';
       document.getElementById('chaos-msg').style.display='block';
     }
-    setTimeout(function(){handle.classList.remove('pulled');lever.classList.remove('disabled');isSpinning=false;},600);
-  },2500);
+    setTimeout(function(){handle.classList.remove('pulled');lever.classList.remove('disabled');isSpinning=false;},100);
+  },1500);
 }
 function pickChallenge(){
   var pool=[];
