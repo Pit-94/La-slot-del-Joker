@@ -164,7 +164,7 @@ var challengesBoth=[
   "Chiedete ad un passante di tenervi la bambola gonfiabile dritta in piedi, inginocchiatevi e dichiaratele il vostro amore."
 ];
 var currentPlayer='',usedBatman=[],usedRobin=[],usedBoth=[],isSpinning=false;
-function selectPlayer(p){currentPlayer=p;document.getElementById('player-badge').textContent=p==='Batman'?'🦇 BATMAN':'😷 ROBIN';showScreen('slot-screen');resetDisplay();}
+function selectPlayer(p){currentPlayer=p;document.getElementById('player-badge').textContent=p==='Batman'?'🦇 BATMAN':'🕶 ROBIN';showScreen('slot-screen');resetDisplay();}
 function showScreen(id){document.querySelectorAll('.screen').forEach(function(s){s.classList.remove('active');});document.getElementById(id).classList.add('active');}
 function pullLever(){
   if(isSpinning)return;isSpinning=true;
