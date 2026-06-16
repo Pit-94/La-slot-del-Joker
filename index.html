@@ -110,7 +110,7 @@ body::before{content:'';position:fixed;inset:0;background-image:repeating-linear
       <div class="cab-corner tl">J ♦</div><div class="cab-corner tr">♦ J</div>
       <div class="cab-corner bl">J ♣</div><div class="cab-corner br">♣ J</div>
       <div class="cabinet-header">
-        <div class="cabinet-header-title">✦ JOLLY'S CHAOS ✦</div>
+        <div class="cabinet-header-title">✦ JOKER'S CHAOS ✦</div>
         <div class="cabinet-lights">
           <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
           <div class="bulb"></div><div class="bulb"></div><div class="bulb"></div>
@@ -174,7 +174,7 @@ function pullLever(){
   var img=document.getElementById('reel-img');
   img.classList.add('spinning');
   document.getElementById('chaos-msg').style.display='none';
-  document.getElementById('display-content').innerHTML='<div class="display-text">Il Jolly sceglie il tuo destino...</div>';
+  document.getElementById('display-content').innerHTML='<div class="display-text">Il Joker sceglie il tuo destino...</div>';
   setTimeout(function(){
     img.classList.remove('spinning');
     var c=pickChallenge();
@@ -182,7 +182,7 @@ function pullLever(){
     flash.classList.add('flash');
     setTimeout(function(){flash.classList.remove('flash');},500);
     if(!c){
-      document.getElementById('display-content').innerHTML='<div class="display-text" style="color:var(--gold-light);">Il Jolly è soddisfatto...<br>Tutte le prove sono state affrontate!</div>';
+      document.getElementById('display-content').innerHTML='<div class="display-text" style="color:var(--gold-light);">Il Joker è soddisfatto...<br>Tutte le prove sono state affrontate!</div>';
       document.getElementById('chaos-msg').style.display='none';
     } else {
       var lbl=c.type==='both'?'<div class="challenge-label">⚡ SFIDA DI COPPIA ⚡</div>':'<div class="challenge-label">🎯 PROVA PER '+currentPlayer.toUpperCase()+'</div>';
