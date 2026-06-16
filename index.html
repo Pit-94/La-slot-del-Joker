@@ -151,17 +151,35 @@ document.getElementById('reel-img').src=JOLLY_SRC;
 
 var challengesBatman=[
   "Spiega perché la ricetta del roastbeef ad una signora e perché è importante pulirsi la bocca con il cocomero.",
-  "Spiega ad uno sconosciuto come mai Federer era notevolmente superiore a Nadal, simulando anche il suo colpo migliore."
+  "Spiega ad uno sconosciuto come mai Federer era notevolmente superiore a Nadal, simulando anche il suo colpo migliore.",
+  "Prima di ogni angolo corri davanti al gruppo, in avan scoperta, rassicurando tutti che non ci sono pericoli in vista. Continua così per 20 minuti",
+  "Ferma un passente e digli che in lui vedi del potenziale. Digli che il tuo maggiordomo è andato in pensione e vorresti assumerlo",
+  "Ti senti sopraffatto; chiedi ad un passante di darti supporto su come affrontare la sfida che il Joker ti ha dato.",
+  "Chiedi ad un passante qual’è il bangbus da prendere per andare dalla justice league",
+  "Entra in un bar, ordina una bottiglietta d'acqua (o qualunque cosa tu voglia) al momento del pagamento esclama -Pagherò con la mia BAT-CARTA- ed essegui una posa plastica degna di POSAMAN."
 ];
 var challengesRobin=[
   "Insegna a versare l'acqua da una bottiglia ad un bicchiere ad uno sconosciuto (esempio pratico).",
-  "Fai un tunnel ad un passante ignaro."
+  "Fai un tunnel ad un passante ignaro.",
+  "Cammina davanti al gruppo per 20 minuti e lamentati di come TU sia il vero eroe, non Batman. Batman non deve assolutamente superati",
+  "Trova un pallone, ferma un passante e vantati di come sei bravo a palleggiare. Ovviamente ne devi dare una dimostrazione",
+  "Ti senti sopraffatto; chiedi ad un passante di darti supporto su come affrontare la sfida che il Joker ti ha dato",
+  "Comportati per 15 minuti come Kal-El, il figlio di Kripton. Vantati di avere il potere del Priapismo, dimostrando a tutti di cosa si tratta con una accurata ricerca su Google. Occhio, le bionde sopra il 1,65 sono la tua kryptonite.. se ne vedi una chiedile se conosce che fine ha fatto Lex Luthor e dille che purtroppo non sei riuscito a salvarlo.",
+  "Chiedi ad un passante qual’è il bangbus da prendere per andare dai quartier generale dei teen titans",
+  "Enta in un bar ed ordina un Caffè. Dai prova della tua agilità bevendo il caffè senza usare le mani.."
 ];
 var challengesBoth=[
   "Andate mano nella mano e chiedete a 3 passanti differenti chi dei due sia l'uomo nella coppia. E si sa l'uomo offre da bere: andate al bar e fatevi uno shot a vicenda offerto dall'uomo.",
   "Avete 10 minuti per raccogliere più selfie possibili con sgrille. Chi raggiunge il numero maggiore ha la bevuta offerta dall'altro. Se entrambi avete 10 foto con donne diverse, entrambi avete la bevuta pagata da Slippi! (SFIDA)",
   "Fatevi autografare il PowerPoint da una persona, dicendo che vi siete appena laureati e quella è la vostra tesina.",
-  "Chiedete ad un passante di tenervi la bambola gonfiabile dritta in piedi, inginocchiatevi e dichiaratele il vostro amore."
+  "Chiedete ad un passante di tenervi la bambola gonfiabile dritta in piedi, inginocchiatevi e dichiaratele il vostro amore.",
+  "Aiutate 2 passanti ad attraversare la strada. Uno blocca le macchine e il secondo prende sotto braccio il pedone. Invertite i ruoli per il secondo",
+  "Fate una posa da Supereroi e rimanete immobili in mezzo alla strada per 2 minuti",
+  "Avete 3 minuti Battete il Cinque a 5 persone random",
+  "Il primo sconosciuto che vedete è in grosso pericolo. Scoratelo per i prossimi 500 metri, fategli da guardie del corpo, altrimenti farà una brutta fine. Rassicuratelo che fino a che ci siete voi nulla potrà succedergli.",
+  "è L'ora dello sport: sfidate in un 2vs2 a qual si voglia sport 2 sconosciuti. In caso di vittoria dite loro che è vostro compito proteggere la città. In caso di sconfitta scappate urlando, torneremo JOKER",
+  "Fatevi firmare o baciare il mantello da 25 ragazze il primo che ci riesce è il vero eroe, l'altro è solo un costume e dovrà farsi il bagno nudo",
+  "Catturate (fotografate con selfie o meglio posa persone a caso che verranno identificate come super criminali) più cattivi possibili, saranno i miei tirapiedi a decretare il più cattivo"
 ];
 var currentPlayer='',usedBatman=[],usedRobin=[],usedBoth=[],isSpinning=false;
 function selectPlayer(p){currentPlayer=p;document.getElementById('player-badge').textContent=p==='Batman'?'🦇 BATMAN':'🕶 ROBIN';showScreen('slot-screen');resetDisplay();}
